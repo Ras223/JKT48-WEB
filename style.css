@@ -1,0 +1,260 @@
+* {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.topbar{
+    display: block;
+    box-sizing: border-box;
+    margin: 0 100px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h1 {
+    color: #CD0C0D;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.logo img {
+    height: 90px;
+}
+
+.mypage {
+    position: absolute;
+    top: -10px;
+    right: 80px;
+    margin: 15px 0;
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.mypage p {
+    padding-right: 20px;
+}
+
+.mypage p a {
+    color: #ff005f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.bahasa img {
+    width: 20px;
+    margin: 16px 5px;
+}
+
+.pilihan{
+    margin-top: 20px;
+    background-color: #CD0C0D;
+    height: 60px;
+}
+
+.global{
+    display: flex;
+    margin-left: 8%;
+}
+
+.global li {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 22px 50px;
+    list-style: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.global li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 0 100px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    font-size: 10px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #ff005f;
+}
+
+.nav a i {
+    margin-right: 5px;
+}
+
+.nav li {
+    font-size: 10px;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.leftbar{
+    float: left;
+}
+
+.leftcontent1 {
+    margin-top: 20px;
+    width: 250px;
+    float: left;
+    border-radius: 5px;
+    background-color: #FF89B5;
+}
+
+.clear{
+    clear: left;
+}
+
+.leftcontent2 {
+    margin-top: 20px;
+    width: 250px;
+    float: left;
+    border-radius: 5px;
+    background-color: #FF89B5;
+}
+
+.leftcontent1 h1 {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: #fff 1px 1px 0;
+    color: #ff005f;
+}
+
+.leftcontent2 h1 {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: #fff 1px 1px 0;
+    color: #ff005f;
+}
+
+.borderpengumuman {
+    border: 1px solid #FF89B5;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.borderpengumuman button {
+    background-color: #ff005f;
+    border: none;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+}
+
+.borderpengumuman button a {
+    text-decoration: none;
+    color: white;
+}
+
+.pengumuman {
+    margin: 15px;
+    
+    border-bottom: 1px dotted #ff005f;
+}
+
+.pengumuman a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #ff005f;
+}
+
+.pengumuman p {
+    font-size: 12px;
+    color: #868e96;
+}
+
+.rigthbar {
+    height: 20px;
+    margin-top: 15px;
+    float: right;
+}
+
+.mypageutama {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    background: url(asset/section-title.png);
+}
+
+.mypageutama h1 {
+    padding: 0px 10px;
+    line-height: 15px;
+    font-size: 24px;
+    text-shadow: #fff 1px 1px 0;
+    color: #ff005f;
+}
+
+.containermypage {
+    width: 820px;
+}
+
+.containermypage img {
+    float: left;
+}
+
+.ket {
+    width: 600px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    margin-left: 200px;
+    display: flex;
+    border-bottom: 1px solid #ced4da;
+}
+
+.ketbio {
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bio {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.bio a {
+    color: #ff005f;
+    text-decoration: none;
+}
+
+.bio1 {
+    display: block;
+}
+
+.akun a{
+    color: #ff005f;
+    text-decoration: none; 
+}
+
+.bio button {
+    width: 390px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #ff005f;
+}
